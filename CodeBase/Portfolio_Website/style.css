@@ -1,0 +1,552 @@
+body {
+  background-color: #0f2b3d;
+}
+
+.hbar {
+  padding: 30px;
+
+}
+
+.perent {
+  top: 75px;
+  position: relative;
+  height: 700px;
+  width: 100%;
+  bottom: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.boss {
+
+
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 0px;
+}
+
+.labours1 {
+  padding: 50px;
+  position: static;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+
+}
+
+
+
+.boss2 {
+
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.labours01 {
+  height: 440px;
+  width: 440px;
+  padding: 150px;
+  border: 3px, solid;
+  position: absolute;
+  z-index: 10;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.labours02 {
+  height: 510px;
+  width: 510px;
+  padding: 140px;
+  background-image: conic-gradient(#06d6d4, #ec4899, #06d6d4, #ec4899);
+  position: static;
+  z-index: 9;
+  filter: blur(5.5rem);
+  border-radius: 100%;
+  animation-name: spin;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.boss3 {
+
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.labours03 {
+  height: 300px;
+  width: 300px;
+  padding: 150px;
+  border: 3px, solid;
+  position: absolute;
+  z-index: 10;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.labours04 {
+  height: 400px;
+  width: 400px;
+  padding: 140px;
+  background-image: conic-gradient(#06d6d4, #ec4899, #06d6d4, #ec4899);
+  position: static;
+  z-index: 9;
+  filter: blur(5.5rem);
+  border-radius: 100%;
+  animation-name: small;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+}
+
+@keyframes small {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.fadeinup {
+  animation: spin2 1s backwards;
+
+
+}
+
+@keyframes spin2 {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+}
+
+.fadeinupbtn {
+  animation: btn 1s 2.2s backwards;
+
+
+}
+
+@keyframes btn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+}
+
+.fadeinup01 {
+  animation: up1 1s 0.5s backwards;
+
+}
+
+@keyframes up1 {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+}
+
+.fadeindown02 {
+  animation: up2 1s 0.5s backwards;
+
+}
+
+@keyframes up2 {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+}
+
+.fadeinup2 {
+  animation: spin2 1s 0.1s backwards;
+
+}
+
+@keyframes spin2 {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+}
+
+.fadeinup3 {
+  animation: spin2 1s 0.2s backwards;
+
+}
+
+@keyframes spin2 {
+  from {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+}
+
+.fadeinup4 {
+  animation: spin2 1s 0.3s backwards;
+
+}
+
+@keyframes spin2 {
+  from {
+    opacity: 0;
+    transform: translateY(80px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+}
+
+.fadeinup5 {
+  animation: spin2 1s 0.4s backwards;
+
+}
+
+@keyframes spin2 {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+}
+
+
+
+
+
+
+
+
+
+.fadeinright1 {
+  animation: spin5 1s 1.9s backwards;
+
+}
+
+@keyframes spin5 {
+  from {
+    opacity: 0;
+    transform: translatex(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translatex(0px);
+  }
+
+}
+
+.fadeinright01 {
+  animation: spin3 1s 1s backwards;
+
+}
+
+@keyframes spin3 {
+  from {
+    opacity: 0;
+    transform: translatex(-60px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translatex(0px);
+  }
+
+}
+
+.fadeinright02 {
+  animation: right 1s 1s backwards;
+
+}
+
+@keyframes right {
+  from {
+    opacity: 0;
+    transform: translatex(60px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translatex(0px);
+  }
+
+}
+
+.fadeinright2 {
+  animation: spin5 1s 2s backwards;
+
+}
+
+@keyframes spin5 {
+  from {
+    opacity: 0;
+    transform: translatex(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translatex(0px);
+  }
+
+}
+
+.fadeinright3 {
+  animation: spin5 1s 2.1s backwards;
+
+}
+
+@keyframes spin5 {
+  from {
+    opacity: 0;
+    transform: translatex(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translatex(0px);
+  }
+
+}
+
+.fadeinright4 {
+  animation: spin5 1s 2.2s backwards;
+
+}
+
+@keyframes spin5 {
+  from {
+    opacity: 0;
+    transform: translatex(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translatex(0px);
+  }
+
+}
+
+.fadeinright5 {
+  animation: spin5 1s 2.3s backwards;
+
+}
+
+@keyframes spin5 {
+  from {
+    opacity: 0;
+    transform: translatex(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translatex(0px);
+  }
+
+}
+
+
+.groline {
+  animation: groright 1s ease-out forwards;
+}
+
+@keyframes groright {
+
+  0% {
+    width: 0px;
+
+  }
+
+  100% {
+    width: 95%;
+  }
+
+}
+
+.groline2 {
+  animation: groright2 1s ease-out forwards;
+}
+
+@keyframes groright2 {
+
+  0% {
+    width: 0px;
+
+  }
+
+  100% {
+    width: 80%;
+  }
+
+}
+
+.groline3 {
+  animation: groright3 1s ease-out forwards;
+}
+
+@keyframes groright3 {
+
+  0% {
+    width: 0px;
+
+  }
+
+  100% {
+    width: 70%;
+  }
+
+}
+
+
+
+
+.groline01 {
+  animation: groright01 1s ease-out forwards;
+}
+
+@keyframes groright01 {
+
+  0% {
+    width: 0px;
+
+  }
+
+  100% {
+    width: 90%;
+  }
+
+}
+
+.groline02 {
+  animation: groright02 1s ease-out forwards;
+}
+
+@keyframes groright02 {
+
+  0% {
+    width: 0px;
+
+  }
+
+  100% {
+    width: 70%;
+  }
+
+}
+
+.groline03 {
+  animation: groright03 1s ease-out forwards;
+}
+
+@keyframes groright03 {
+
+  0% {
+    width: 0px;
+
+  }
+
+  100% {
+    width: 80%;
+  }
+
+}
+
+
+.Ui-Ux {
+  animation-play-state: paused;
+
+
+
+}
+
+.Ui-Ux:hover {
+  animation-play-state: running;
+  animation: Uides 0.5s forwards;
+
+
+
+
+}
+
+@keyframes Uides {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(-20px);
+
+
+  }
+
+
+
+}

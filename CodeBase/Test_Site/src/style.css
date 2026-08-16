@@ -1,0 +1,42 @@
+
+.total{
+   
+   animation-name: truck-animation;
+   animation-duration: 9s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   
+}
+@keyframes truck-animation {
+    0%{transform: translatex(-750px);}
+    50%{transform: translateX(500px);}
+    100%{transform: translateX(1600px); }
+}
+
+.skysmall{
+    animation:skysmall-animation 40s infinite 
+}
+@keyframes skysmall-animation {
+     from{transform: translateX(-500px);}
+    to{transform: translateX(1600px);}
+
+    
+}
+.sky{
+    animation:skysmall-animation 30s infinite ease-in-out 
+}
+@keyframes skysmall-animation {
+     from{transform: translateX(-500px);}
+    to{transform: translateX(1600px);}
+    
+}
+.wordshello{
+     transform: translateX(80px);
+    
+}
+
+@keyframes words-animation {
+    from(transform:translateX(0px))
+    to(transform:translateX(100px))
+    
+}

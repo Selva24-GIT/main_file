@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note book</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <script defer src="script.js"> </script>
+    <nav class="navbor">
+        <h1>Note Book</h1>
+    </nav>
+
+    <div class="container">
+        <div class="book-container">
+            
+                <h2>Rich dad poor dad</h2>
+                <h3>-Autor</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa laborum numquam incidunt, tempore
+                    molestiae illum quibusdam, atque amet omnis vero et sed eius tempora laboriosam. Reprehenderit incidunt
+                    est quae Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, modi distinctio quaerat
+                    aspernatur, voluptas illo rem hic reprehenderit consequatur esse repellat similique, repellendus fuga
+                    ea! Aperiam facilis libero minus eos..</p>
+                <button onclick="update(event)" id="popupdelete">delete</button>
+            </div>
+        </div>
+    
+
+        
+    
+
+    <div class="overlay"></div>
+    <div class="popupbox">
+        <h2>add Note</h2>
+        <form>
+             <input placeholder="title" id="popuptitle">
+            <input placeholder="Autor" id="popupAutor">
+            <textarea placeholder="Text" id="popuptext"></textarea>
+            <button id="popupadd">ADD</button>
+            <button id="popupcencel">CENCEL</button>
+        </form>
+    </div>
+    
+    <div tabindex="0" class="plusButton" id="add-javascript-button">
+        <svg class="plusIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+          <g mask="url(#mask0_21_345)">
+            <path d="M13.75 23.75V16.25H6.25V13.75H13.75V6.25H16.25V13.75H23.75V16.25H16.25V23.75H13.75Z"></path>
+          </g>
+          <style>
+            
+/* From Uiverse.io by OnCloud125252 */ 
+/* Note that you only needs to edit the config to customize the button! */
+
+.plusButton {
+  /* Config start */
+  --plus_sideLength: 2.5rem;
+  --plus_topRightTriangleSideLength: 0.9rem;
+  /* Config end */
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 15px;
+  margin: 15px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  width: var(--plus_sideLength);
+  height: var(--plus_sideLength);
+  background-color: #000000;
+  overflow: hidden;
+  border-radius: 100%;
+}
+
+.plusButton::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-width: 0 var(--plus_topRightTriangleSideLength) var(--plus_topRightTriangleSideLength) 0;
+  border-style: solid;
+  border-color: transparent white transparent transparent;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2s;
+}
+
+.plusButton:hover {
+  cursor: pointer;
+}
+
+.plusButton:hover::before {
+  --plus_topRightTriangleSideLength: calc(var(--plus_sideLength) * 2);
+}
+
+.plusButton:focus-visible::before {
+  --plus_topRightTriangleSideLength: calc(var(--plus_sideLength) * 2);
+}
+
+.plusButton>.plusIcon {
+  fill: white;
+  width: calc(var(--plus_sideLength) * 0.7);
+  height: calc(var(--plus_sideLength) * 0.7);
+  z-index: 1;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2s;
+}
+
+.plusButton:hover>.plusIcon {
+  fill: black;
+  transform: rotate(180deg);
+}
+
+.plusButton:focus-visible>.plusIcon {
+  fill: black;
+  transform: rotate(180deg);
+}
+
+
+          </style>
+        </svg>
+      </div>
+
+</body>
+
+</html>

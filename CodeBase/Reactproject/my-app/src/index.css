@@ -1,0 +1,19 @@
+header{
+  background-color: brown;
+  color: white;
+
+}
+
+footer{
+  background-color: blueviolet;
+  color: white;
+}
+button{
+  padding: 5px;
+  margin: 10px;
+  background-color: brown;
+  color: white;
+  font-size: medium;
+  border-radius: 5px;
+  border: none;
+}

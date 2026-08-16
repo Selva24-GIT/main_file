@@ -1,0 +1,1483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<script defer src="main.js"> </script>
+
+<body class="p-5 text-gray-800 md:p-10 border-8">
+    <section class="bg-purple-100 p-5 rounded-xl mb-10">
+        <div class="container  mx-auto  ">
+            <div class="flex">
+                <a class="text-2xl font-bold pr-5 border-r mr-5 border-purple-300" href="index.html">Agency</a>
+                <div class="my-auto">
+                    <button class="lg:hidden" onclick="change()">
+                        <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                    </button>
+                
+
+                    <ul class="lg:flex hidden">
+                        <li class="pr-5 "><a class="px-3 py-2  hover:border border-purple-300" href="">home </a></li>
+                        <li class="pr-5 "><a class="px-3 py-2  hover:border border-purple-300" href="">services</a></li>
+                        <li class="pr-5 "><a class="px-3 py-2  hover:border border-purple-300" href="">about</a></li>
+                        <li class="pr-5 "><a class="px-3 py-2  hover:border border-purple-300" href="">porfolio</a></li>
+                        <li class="pr-5 "><a class="px-3 py-2  hover:border border-purple-300" href="">contact</a></li>
+                    </ul>
+                </div>
+
+                <a class=" ml-auto text-medium font-bold bg-red-500 text-white rounded px-3 py-2 flex" href=""> <span
+                        class="pr-1 lg:block hidden ">Get a Quote </span> <svg xmlns="http://www.w3.org/2000/svg"
+                        fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                             d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+                    </svg>
+                </a>
+            </div>
+            <div>
+                <ul class="hidden" id="menu">
+                    <li class="pr-5 "><a class="px-3 py-2  hover:border border-purple-300" href="">home </a></li>
+                    <li class="pr-5 "><a class="px-3 py-2  hover:border border-purple-300" href="">services</a></li>
+                    <li class="pr-5 "><a class="px-3 py-2  hover:border border-purple-300" href="">about</a></li>
+                    <li class="pr-5 "><a class="px-3 py-2  hover:border border-purple-300" href="">porfolio</a></li>
+                    <li class="pr-5 "><a class="px-3 py-2  hover:border border-purple-300" href="">contact</a></li>
+                </ul>
+            </div>
+            <div class="flex py-12 lg:py-36">
+                <div class="w-full lg:w-1/2">
+                    <h2 class="text-center lg:text-left text-3xl font-bold lg:text-7xl lg:text-semibold">
+                        World class design for your products
+                    </h2>
+                    <p class="text-center lg:text-left  text-2xl text-gray-600 mt-4 lg:mt-8">lets bring design for your
+                        products</p>
+                    <div class="flex mt-12 justify-center lg:justify-start">
+                        <a class="bg-red-600 text-lgrounded mr-5 px-3 text-white py-2" href="">services</a>
+                        <a class="bg-purple-600 text-lg rounded mr-5 px-3 text-white py-2" href="">Contact us</a>
+                    </div>
+
+                </div>
+                <div class="w-1/2 hidden lg:flex ">
+                    <img src="./assets/hero2.svg" alt="">
+
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5" />
+                </svg>
+                <span class="pl-2">
+                    Scroll Down
+                </span>
+
+            </div>
+        </div>
+    </section>
+    <section class="bg-red-100 p-5 rounded-xl mb-10">
+        <div class="container mx-auto ">
+            <div class="py-16 lg:py-28 ">
+                <h2 class="text-center text-3xl lg:text-5xl font-bold">Our Services</h2>
+                <p class="mt-5 w-1/2 text-center mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptas, aliquam, nesciunt totam obcaecati consequuntur neque non eum odio dolorem sint a error
+                    enim dolore cumque voluptate incidunt cupiditate atque molestiae.</p>
+            </div>
+            <div class="flex flex-wrap pb-16 lg:pb-28 justify-center">
+                <div class="w-full lg:w-1/2 xl:w-1/3 p-5">
+                    <div class="bg-white ml-5 rounded-xl p-10 shadow-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-10 mb-5 text-blue-600">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
+                        </svg>
+                        <h2 class="text-2xl font-bold text-gray-700">Services</h2>
+                        <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quaerat, rem amet
+                            cumque dicta dolor aliquam ipsum cupiditate nulla saepe. Obcaecati vel ab reprehenderit
+                            perspiciatis accusantium error consequuntur repudiandae corporis.</p>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 xl:w-1/3 p-5">
+                    <div class="bg-white ml-5 rounded-xl p-10 shadow-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-10 mb-5 text-red-600">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M7.5 14.25v2.25m3-4.5v4.5m3-6.75v6.75m3-9v9M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z" />
+                        </svg>
+
+                        <h2 class="text-2xl font-bold text-gray-700">Development</h2>
+                        <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur commodi
+                            porro explicabo, consequuntur reiciendis, doloribus error sunt obcaecati similique quibusdam
+                            accusantium pariatur facilis soluta, cum est. Veniam nobis eligendi corporis?</p>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 xl:w-1/3 p-5">
+                    <div class="bg-white ml-5 rounded-xl p-10 shadow-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-10 mb-5 text-green-600">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M15.75 15.75V18m-7.5-6.75h.008v.008H8.25v-.008Zm0 2.25h.008v.008H8.25V13.5Zm0 2.25h.008v.008H8.25v-.008Zm0 2.25h.008v.008H8.25V18Zm2.498-6.75h.007v.008h-.007v-.008Zm0 2.25h.007v.008h-.007V13.5Zm0 2.25h.007v.008h-.007v-.008Zm0 2.25h.007v.008h-.007V18Zm2.504-6.75h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V13.5Zm0 2.25h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V18Zm2.498-6.75h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V13.5ZM8.25 6h7.5v2.25h-7.5V6ZM12 2.25c-1.892 0-3.758.11-5.593.322C5.307 2.7 4.5 3.65 4.5 4.757V19.5a2.25 2.25 0 0 0 2.25 2.25h10.5a2.25 2.25 0 0 0 2.25-2.25V4.757c0-1.108-.806-2.057-1.907-2.185A48.507 48.507 0 0 0 12 2.25Z" />
+                        </svg>
+
+                        <h2 class="text-2xl font-bold text-gray-700">design Marketing</h2>
+                        <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi odit corrupti
+                            eaque quia reiciendis nobis modi molestias sapiente obcaecati esse illum laboriosam et dolor
+                            odio sunt similique, est maxime non.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="p-5 rounded-xl mb-10">
+        <div class="container mx-auto px-0 lg:px-28 ">
+
+            <div class="bg-green-500 rounded-xl p-10">
+                <h2 class="font-bold text-center text-2xl text-white">
+                    Companies who turst on us
+                </h2>
+                <div class="flex flex-wrap mt-8 justify-center">
+                    <div class="p-5 w-full md:w-1/2 lg:w-1/3 xl:w-1/4">
+                        <img src="./assets/dummy_logo.png" alt="" class="m-h-12 mx-auto">
+
+                    </div>
+                    <div class="p-5 w-full md:w-1/2 lg:w-1/3 xl:w-1/4">
+                        <img src="./assets/dummy_logo.png" alt="" class="m-h-12 mx-auto">
+
+                    </div>
+                    <div class="p-5 w-full md:w-1/2 lg:w-1/3 xl:w-1/4">
+                        <img src="./assets/dummy_logo.png" alt="" class="m-h-12 mx-auto">
+
+                    </div>
+                    <div class="p-5 w-full md:w-1/2 lg:w-1/3 xl:w-1/4">
+                        <img src="./assets/dummy_logo.png" alt="" class="m-h-12 mx-auto">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </section>
+    <section class="bg-red-100 p-5 rounded-xl mb-10">
+        <div class="container mx-auto ">
+            <div class="py-16 lg:py-28 ">
+                <h2 class="text-center text-3xl lg:text-5xl font-bold">Our portfolio</h2>
+                <p class="mt-5 w-1/2 text-center mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptas, aliquam, nesciunt totam obcaecati consequuntur neque non eum odio dolorem sint a error
+                    enim dolore cumque voluptate incidunt cupiditate atque molestiae.</p>
+            </div>
+
+            <div class="flex flex-wrap  justify-center">
+                <div class="w-full md:w-1/2 py-4 md:py-24">
+                    <div class="w-full md:w-11/12 lg:w-8/12 mx-auto">
+                        <div class="rounded-b-3xl">
+
+                            <img class="rounded-t-3xl" src="/src/assets/product.png" alt="">
+                            <div class="bg-white p-5 rounded-b-3xl shadow-lg ">
+                                <p>
+                                    <span class="bg-green-400 border border-green-100 rounded-3xl px-2">Design</span>
+                                    <span class="bg-red-400 border border-red-100 rounded-3xl px-2">Branding</span>
+                                </p>
+                                <h3 class="mt-4 text-lg font-bold"> Design item 1</h3>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full md:w-1/2 py-4 md:py-12">
+                    <div class="w-full md:w-11/12 lg:w-8/12 mx-auto">
+                        <div class="rounded-b-3xl">
+
+                            <img class="rounded-t-3xl" src="/src/assets/product.png" alt="">
+                            <div class="bg-white p-5 rounded-b-3xl shadow-lg ">
+                                <p>
+                                    <span class="bg-green-400 border border-green-100 rounded-3xl px-2">Design</span>
+                                    <span class="bg-red-400 border border-red-100 rounded-3xl px-2">Branding</span>
+                                </p>
+                                <h3 class="mt-4 text-lg font-bold"> Design item 1</h3>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 py-4 md:pt-24">
+                    <div class="w-full md:w-11/12 lg:w-8/12 mx-auto">
+                        <div class="rounded-b-3xl">
+
+                            <img class="rounded-t-3xl" src="/src/assets/product.png" alt="">
+                            <div class="bg-white p-5 rounded-b-3xl shadow-lg ">
+                                <p>
+                                    <span class="bg-green-400 border border-green-100 rounded-3xl px-2">Design</span>
+                                    <span class="bg-red-400 border border-red-100 rounded-3xl px-2">Branding</span>
+                                </p>
+                                <h3 class="mt-4 text-lg font-bold"> Design item 1</h3>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 py-4 md:py-12">
+                    <div class="w-full md:w-11/12 lg:w-8/12 mx-auto">
+                        <div class="rounded-b-3xl">
+
+                            <img class="rounded-t-3xl" src="/src/assets/product.png" alt="">
+                            <div class="bg-white p-5 rounded-b-3xl shadow-lg ">
+                                <p>
+                                    <span class="bg-green-400 border border-green-100 rounded-3xl px-2">Design</span>
+                                    <span class="bg-red-400 border border-red-100 rounded-3xl px-2">Branding</span>
+                                </p>
+                                <h3 class="mt-4 text-lg font-bold"> Design item 1</h3>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 py-4 md:pt-24">
+                    <div class="w-full md:w-11/12 lg:w-8/12 mx-auto">
+                        <div class="rounded-b-3xl">
+
+                            <img class="rounded-t-3xl" src="/src/assets/product.png" alt="">
+                            <div class="bg-white p-5 rounded-b-3xl shadow-lg ">
+                                <p>
+                                    <span class="bg-green-400 border border-green-100 rounded-3xl px-2">Design</span>
+                                    <span class="bg-red-400 border border-red-100 rounded-3xl px-2">Branding</span>
+                                </p>
+                                <h3 class="mt-4 text-lg font-bold"> Design item 1</h3>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex py-12">
+                <a class="mx-auto bg-purple-500 px-3 py-2 rounded-xl font-semibold text-lg" href="">Explore</a>
+            </div>
+        </div>
+
+    </section>
+    <section class="bg-purple-100 p-5 rounded-xl mb-10">
+        <div class="container mx-auto ">
+            <div class="py-16 lg:py-28 ">
+                <h2 class="text-center text-3xl lg:text-5xl font-bold">Testimonials</h2>
+                <p class="mt-5 w-1/2 text-center mx-auto">what our clients say</p>
+                <div class="mt-12">
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                        <div class="bg-purple-200 rounded-lg  p-5">
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-8 mb-6 text-purple-800">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+                                </svg>
+
+                            </p>
+                            <p>
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat reprehenderit
+                                    excepturi sint pariatur quia, aliquid accusantium, doloremque error omnis vel
+                                    explicabo quae voluptatum eius cupiditate ab blanditiis eaque saepe ipsa?</span>
+                            </p>
+                            <p class="text-purple-900 font-bold mt-6 text-lg">
+                                Name
+
+                            </p>
+                            <p class="text-gray-400">
+                                designation,Company
+                            </p>
+                            <p class="flex text-green-600 mt-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </p>
+                        </div>
+
+                        <div class="bg-purple-200 rounded-lg  p-5">
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-8 mb-6 text-purple-800">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+                                </svg>
+
+                            </p>
+                            <p>
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat reprehenderit
+                                    excepturi sint pariatur quia, aliquid accusantium, doloremque error omnis vel
+                                    explicabo quae voluptatum eius cupiditate ab blanditiis eaque saepe ipsa?</span>
+                            </p>
+                            <p class="text-purple-900 font-bold mt-6 text-lg">
+                                Name
+
+                            </p>
+                            <p class="text-gray-400">
+                                designation,Company
+                            </p>
+                            <p class="flex text-green-600 mt-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </p>
+                        </div>
+
+
+                        <div class="bg-purple-200 rounded-lg  p-5">
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-8 mb-6 text-purple-800">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+                                </svg>
+
+                            </p>
+                            <p>
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat reprehenderit
+                                    excepturi sint pariatur quia, aliquid accusantium, doloremque error omnis vel
+                                    explicabo quae voluptatum eius cupiditate ab blanditiis eaque saepe ipsa?</span>
+                            </p>
+                            <p class="text-purple-900 font-bold mt-6 text-lg">
+                                Name
+
+                            </p>
+                            <p class="text-gray-400">
+                                designation,Company
+                            </p>
+                            <p class="flex text-green-600 mt-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </p>
+                        </div>
+
+
+                        <div class="bg-purple-200 rounded-lg  p-5">
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-8 mb-6 text-purple-800">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+                                </svg>
+
+                            </p>
+                            <p>
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat reprehenderit
+                                    excepturi sint pariatur quia, aliquid accusantium, doloremque error omnis vel
+                                    explicabo quae voluptatum eius cupiditate ab blanditiis eaque saepe ipsa?</span>
+                            </p>
+                            <p class="text-purple-900 font-bold mt-6 text-lg">
+                                Name
+
+                            </p>
+                            <p class="text-gray-400">
+                                designation,Company
+                            </p>
+                            <p class="flex text-green-600 mt-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </p>
+                        </div>
+
+
+                        <div class="bg-purple-200 rounded-lg  p-5">
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-8 mb-6 text-purple-800">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+                                </svg>
+
+                            </p>
+                            <p>
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat reprehenderit
+                                    excepturi sint pariatur quia, aliquid accusantium, doloremque error omnis vel
+                                    explicabo quae voluptatum eius cupiditate ab blanditiis eaque saepe ipsa?</span>
+                            </p>
+                            <p class="text-purple-900 font-bold mt-6 text-lg">
+                                Name
+
+                            </p>
+                            <p class="text-gray-400">
+                                designation,Company
+                            </p>
+                            <p class="flex text-green-600 mt-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </p>
+                        </div>
+
+
+
+
+                        <div class="bg-purple-200 rounded-lg  p-5">
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-8 mb-6 text-purple-800">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+                                </svg>
+
+                            </p>
+                            <p>
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat reprehenderit
+                                    excepturi sint pariatur quia, aliquid accusantium, doloremque error omnis vel
+                                    explicabo quae voluptatum eius cupiditate ab blanditiis eaque saepe ipsa?</span>
+                            </p>
+                            <p class="text-purple-900 font-bold mt-6 text-lg">
+                                Name
+
+                            </p>
+                            <p class="text-gray-400">
+                                designation,Company
+                            </p>
+                            <p class="flex text-green-600 mt-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </p>
+                        </div>
+
+
+
+
+
+
+
+
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="bg-gray-900 p-5 rounded-2xl mb-10">
+        <div class="container mx-auto">
+
+            <div class="flex flex-wrap">
+                <div class="text-white w-full lg:w-1/2 xl:w-1/4 p-5">
+                    <Div class="p-10 rounded bg-red-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-24 text-white">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M13.5 21v-7.5a.75.75 0 0 1 .75-.75h3a.75.75 0 0 1 .75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349M3.75 21V9.349m0 0a3.001 3.001 0 0 0 3.75-.615A2.993 2.993 0 0 0 9.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 0 0 2.25 1.016c.896 0 1.7-.393 2.25-1.015a3.001 3.001 0 0 0 3.75.614m-16.5 0a3.004 3.004 0 0 1-.621-4.72l1.189-1.19A1.5 1.5 0 0 1 5.378 3h13.243a1.5 1.5 0 0 1 1.06.44l1.19 1.189a3 3 0 0 1-.621 4.72M6.75 18h3.75a.75.75 0 0 0 .75-.75V13.5a.75.75 0 0 0-.75-.75H6.75a.75.75 0 0 0-.75.75v3.75c0 .414.336.75.75.75Z" />
+                        </svg>
+                        <div class="mt-12">
+                            <p class="text-5xl font-thin">1000</p>
+                            <h2 class="text-xl font-thin ml-1">clients</h2>
+
+                        </div>
+
+
+
+                    </Div>
+                </div>
+                <div class="text-white w-full lg:w-1/2 xl:w-1/4 p-5">
+                    <Div class="p-10 rounded bg-purple-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-24">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 0 0 2.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 0 0-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25ZM6.75 12h.008v.008H6.75V12Zm0 3h.008v.008H6.75V15Zm0 3h.008v.008H6.75V18Z" />
+                        </svg>
+                        <div class="mt-12">
+                            <p class="text-5xl font-thin">1000</p>
+                            <h2 class="text-xl font-thin ml-1">clients</h2>
+
+                        </div>
+
+
+
+                    </Div>
+
+
+
+
+
+                </div>
+                <div class="text-white w-full lg:w-1/2 xl:w-1/4 p-5">
+                    <Div class="p-10 rounded bg-red-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-24 text-white">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M13.5 21v-7.5a.75.75 0 0 1 .75-.75h3a.75.75 0 0 1 .75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349M3.75 21V9.349m0 0a3.001 3.001 0 0 0 3.75-.615A2.993 2.993 0 0 0 9.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 0 0 2.25 1.016c.896 0 1.7-.393 2.25-1.015a3.001 3.001 0 0 0 3.75.614m-16.5 0a3.004 3.004 0 0 1-.621-4.72l1.189-1.19A1.5 1.5 0 0 1 5.378 3h13.243a1.5 1.5 0 0 1 1.06.44l1.19 1.189a3 3 0 0 1-.621 4.72M6.75 18h3.75a.75.75 0 0 0 .75-.75V13.5a.75.75 0 0 0-.75-.75H6.75a.75.75 0 0 0-.75.75v3.75c0 .414.336.75.75.75Z" />
+                        </svg>
+                        <div class="mt-12">
+                            <p class="text-5xl font-thin">1000</p>
+                            <h2 class="text-xl font-thin ml-1">clients</h2>
+
+                        </div>
+
+
+
+                    </Div>
+
+
+
+
+
+                </div>
+                <div class="text-white w-full lg:w-1/2 xl:w-1/4 p-5">
+                    <Div class="p-10 rounded bg-purple-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-24">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 0 0 2.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 0 0-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25ZM6.75 12h.008v.008H6.75V12Zm0 3h.008v.008H6.75V15Zm0 3h.008v.008H6.75V18Z" />
+                        </svg>
+
+                        <div class="mt-12">
+                            <p class="text-5xl font-thin">1000</p>
+                            <h2 class="text-xl font-thin ml-1">clients</h2>
+
+                        </div>
+
+
+
+                    </Div>
+
+
+
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </section>
+    <section class="bg-red-100 p-5 rounded-2xl mb-10">
+        <div class="container mx-auto">
+            <div class="flex flex-wrap py-10">
+                <div class="w-full lg:w-1/2 p-5 ">
+
+                    <img class="rounded-2xl" src="./assets/product.png" alt="">
+
+
+                </div>
+                <div class="w-full lg:w-1/2 p-5">
+                    <div>
+                        <h2 class="text-5xl font-bold">
+                            Subscribe to our newsletter
+                        </h2>
+
+                        <p class="mt-4 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam rerum
+                            delectus porro. Saepe
+                            tenetur debitis molestiae maiores fugit est veniam atque, reiciendis placeat laudantium
+                            quaerat corporis beatae, possimus adipisci eaque.
+                        </p>
+                        <div class="mt-12">
+                            <form action="">
+                                <div class="flex">
+                                    <div class="w-auto flex">
+
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="size-6 my-auto">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                                        </svg>
+
+
+                                    </div>
+                                    <div class="w-full ">
+                                        <span class="block text-gray-600"> Ender Your name</span>
+                                        <input class="rounded w-full focus:outline-none p-1" type="text">
+                                    </div>
+                                </div>
+                                <div class="flex">
+                                    <div class="w-auto flex">
+
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="size-6 my-auto">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                                        </svg>
+
+
+                                    </div>
+                                    <div class="w-full ">
+                                        <span class="block text-gray-600"> Ender Your Email</span>
+                                        <input class="rounded w-full focus:outline-none p-1" type="email">
+                                    </div>
+
+                                </div>
+                                <div class="mt-5 ml-5">
+                                    <input class="mr-2" type="checkbox"> I Agree
+                                </div>
+                                <button
+                                    class="bg-purple-500 text-white rounded px-3 mt-3 block py-2 ml-3 font-semibold">
+                                    Subscribe
+
+                                </button>
+
+
+                            </form>
+
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        </div>
+    </section>
+    <section class="bg-purple-100 p-5 rounded-2xl mb-10">
+        <div class="container mx-auto">
+            <div class="py-16 lg:py-28">
+                <h2 class="text-center text-3xl lg:text-5xl font-bold">our team</h2>
+                <p class="lg:w-1/2 text-center mx-auto mt-5">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis voluptatibus sunt ipsam odit
+                    voluptates pariatur ducimus quos quam sit. Facilis, laborum. Iusto quas numquam deleniti!
+                    Accusantium illum non totam numquam?
+                </p>
+                <div class="mt-12">
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+                        <div class="bg-purple-50 rounded-2xl p-10 text-center">
+                            <img class="mx-auto rounded-2xl shadow-md w-52" src="/src/assets/team1.jpg" alt="">
+                            <h2 class="mt-3  text-xl font-bold text-purple-900 ">Name</h2>
+                            <p class="text-gray-400 font-semibold">Designation</p>
+                            <ul class="flex justify-center gap-2  mt-3">
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5"
+                                            viewBox="0 0 24 24">
+                                            <path
+                                                d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24">
+                                            <path
+                                                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24">
+                                            <path
+                                                d="M15.233 5.488c-.843-.038-1.097-.046-3.233-.046s-2.389.008-3.232.046c-2.17.099-3.181 1.127-3.279 3.279-.039.844-.048 1.097-.048 3.233s.009 2.389.047 3.233c.099 2.148 1.106 3.18 3.279 3.279.843.038 1.097.047 3.233.047 2.137 0 2.39-.008 3.233-.046 2.17-.099 3.18-1.129 3.279-3.279.038-.844.046-1.097.046-3.233s-.008-2.389-.046-3.232c-.099-2.153-1.111-3.182-3.279-3.281zm-3.233 10.62c-2.269 0-4.108-1.839-4.108-4.108 0-2.269 1.84-4.108 4.108-4.108s4.108 1.839 4.108 4.108c0 2.269-1.839 4.108-4.108 4.108zm4.271-7.418c-.53 0-.96-.43-.96-.96s.43-.96.96-.96.96.43.96.96-.43.96-.96.96zm-1.604 3.31c0 1.473-1.194 2.667-2.667 2.667s-2.667-1.194-2.667-2.667c0-1.473 1.194-2.667 2.667-2.667s2.667 1.194 2.667 2.667zm4.333-12h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm.952 15.298c-.132 2.909-1.751 4.521-4.653 4.654-.854.039-1.126.048-3.299.048s-2.444-.009-3.298-.048c-2.908-.133-4.52-1.748-4.654-4.654-.039-.853-.048-1.125-.048-3.298 0-2.172.009-2.445.048-3.298.134-2.908 1.748-4.521 4.654-4.653.854-.04 1.125-.049 3.298-.049s2.445.009 3.299.048c2.908.133 4.523 1.751 4.653 4.653.039.854.048 1.127.048 3.299 0 2.173-.009 2.445-.048 3.298z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24">
+                                            <path
+                                                d="M0 0v24h24v-24h-24zm8 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.397-2.586 7-2.777 7 2.476v6.759z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24">
+                                            <path
+                                                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
+                                        </svg>
+                                    </a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+
+
+
+
+                        <div class="bg-purple-50 rounded-2xl p-10 text-center">
+                            <img class="mx-auto rounded-2xl shadow-md w-52" src="/src/assets/team2.jpg" alt="">
+                            <h2 class="mt-3  text-xl font-bold text-purple-900 ">Name</h2>
+                            <p class="text-gray-400 font-semibold">Designation</p>
+                            <ul class="flex justify-center gap-2  mt-3">
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5"
+                                            viewBox="0 0 24 24">
+                                            <path
+                                                d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24">
+                                            <path
+                                                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24">
+                                            <path
+                                                d="M15.233 5.488c-.843-.038-1.097-.046-3.233-.046s-2.389.008-3.232.046c-2.17.099-3.181 1.127-3.279 3.279-.039.844-.048 1.097-.048 3.233s.009 2.389.047 3.233c.099 2.148 1.106 3.18 3.279 3.279.843.038 1.097.047 3.233.047 2.137 0 2.39-.008 3.233-.046 2.17-.099 3.18-1.129 3.279-3.279.038-.844.046-1.097.046-3.233s-.008-2.389-.046-3.232c-.099-2.153-1.111-3.182-3.279-3.281zm-3.233 10.62c-2.269 0-4.108-1.839-4.108-4.108 0-2.269 1.84-4.108 4.108-4.108s4.108 1.839 4.108 4.108c0 2.269-1.839 4.108-4.108 4.108zm4.271-7.418c-.53 0-.96-.43-.96-.96s.43-.96.96-.96.96.43.96.96-.43.96-.96.96zm-1.604 3.31c0 1.473-1.194 2.667-2.667 2.667s-2.667-1.194-2.667-2.667c0-1.473 1.194-2.667 2.667-2.667s2.667 1.194 2.667 2.667zm4.333-12h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm.952 15.298c-.132 2.909-1.751 4.521-4.653 4.654-.854.039-1.126.048-3.299.048s-2.444-.009-3.298-.048c-2.908-.133-4.52-1.748-4.654-4.654-.039-.853-.048-1.125-.048-3.298 0-2.172.009-2.445.048-3.298.134-2.908 1.748-4.521 4.654-4.653.854-.04 1.125-.049 3.298-.049s2.445.009 3.299.048c2.908.133 4.523 1.751 4.653 4.653.039.854.048 1.127.048 3.299 0 2.173-.009 2.445-.048 3.298z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24">
+                                            <path
+                                                d="M0 0v24h24v-24h-24zm8 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.397-2.586 7-2.777 7 2.476v6.759z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24">
+                                            <path
+                                                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
+                                        </svg>
+                                    </a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                        <div class="bg-purple-50 rounded-2xl p-10 text-center">
+                            <img class="mx-auto rounded-2xl shadow-md w-52" src="/src/assets/team3.jpg" alt="">
+                            <h2 class="mt-3  text-xl font-bold text-purple-900 ">Name</h2>
+                            <p class="text-gray-400 font-semibold">Designation</p>
+                            <ul class="flex justify-center gap-2  mt-3">
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5"
+                                            viewBox="0 0 24 24">
+                                            <path
+                                                d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24">
+                                            <path
+                                                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24">
+                                            <path
+                                                d="M15.233 5.488c-.843-.038-1.097-.046-3.233-.046s-2.389.008-3.232.046c-2.17.099-3.181 1.127-3.279 3.279-.039.844-.048 1.097-.048 3.233s.009 2.389.047 3.233c.099 2.148 1.106 3.18 3.279 3.279.843.038 1.097.047 3.233.047 2.137 0 2.39-.008 3.233-.046 2.17-.099 3.18-1.129 3.279-3.279.038-.844.046-1.097.046-3.233s-.008-2.389-.046-3.232c-.099-2.153-1.111-3.182-3.279-3.281zm-3.233 10.62c-2.269 0-4.108-1.839-4.108-4.108 0-2.269 1.84-4.108 4.108-4.108s4.108 1.839 4.108 4.108c0 2.269-1.839 4.108-4.108 4.108zm4.271-7.418c-.53 0-.96-.43-.96-.96s.43-.96.96-.96.96.43.96.96-.43.96-.96.96zm-1.604 3.31c0 1.473-1.194 2.667-2.667 2.667s-2.667-1.194-2.667-2.667c0-1.473 1.194-2.667 2.667-2.667s2.667 1.194 2.667 2.667zm4.333-12h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm.952 15.298c-.132 2.909-1.751 4.521-4.653 4.654-.854.039-1.126.048-3.299.048s-2.444-.009-3.298-.048c-2.908-.133-4.52-1.748-4.654-4.654-.039-.853-.048-1.125-.048-3.298 0-2.172.009-2.445.048-3.298.134-2.908 1.748-4.521 4.654-4.653.854-.04 1.125-.049 3.298-.049s2.445.009 3.299.048c2.908.133 4.523 1.751 4.653 4.653.039.854.048 1.127.048 3.299 0 2.173-.009 2.445-.048 3.298z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24">
+                                            <path
+                                                d="M0 0v24h24v-24h-24zm8 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.397-2.586 7-2.777 7 2.476v6.759z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24">
+                                            <path
+                                                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
+                                        </svg>
+                                    </a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                        <div class="bg-purple-50 rounded-2xl p-10 text-center">
+                            <img class="mx-auto rounded-2xl shadow-md w-52" src="/src/assets/team4.jpg" alt="">
+                            <h2 class="mt-3  text-xl font-bold text-purple-900 ">Name</h2>
+                            <p class="text-gray-400 font-semibold">Designation</p>
+                            <ul class="flex justify-center gap-2  mt-3">
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5"
+                                            viewBox="0 0 24 24">
+                                            <path
+                                                d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24">
+                                            <path
+                                                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24">
+                                            <path
+                                                d="M15.233 5.488c-.843-.038-1.097-.046-3.233-.046s-2.389.008-3.232.046c-2.17.099-3.181 1.127-3.279 3.279-.039.844-.048 1.097-.048 3.233s.009 2.389.047 3.233c.099 2.148 1.106 3.18 3.279 3.279.843.038 1.097.047 3.233.047 2.137 0 2.39-.008 3.233-.046 2.17-.099 3.18-1.129 3.279-3.279.038-.844.046-1.097.046-3.233s-.008-2.389-.046-3.232c-.099-2.153-1.111-3.182-3.279-3.281zm-3.233 10.62c-2.269 0-4.108-1.839-4.108-4.108 0-2.269 1.84-4.108 4.108-4.108s4.108 1.839 4.108 4.108c0 2.269-1.839 4.108-4.108 4.108zm4.271-7.418c-.53 0-.96-.43-.96-.96s.43-.96.96-.96.96.43.96.96-.43.96-.96.96zm-1.604 3.31c0 1.473-1.194 2.667-2.667 2.667s-2.667-1.194-2.667-2.667c0-1.473 1.194-2.667 2.667-2.667s2.667 1.194 2.667 2.667zm4.333-12h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm.952 15.298c-.132 2.909-1.751 4.521-4.653 4.654-.854.039-1.126.048-3.299.048s-2.444-.009-3.298-.048c-2.908-.133-4.52-1.748-4.654-4.654-.039-.853-.048-1.125-.048-3.298 0-2.172.009-2.445.048-3.298.134-2.908 1.748-4.521 4.654-4.653.854-.04 1.125-.049 3.298-.049s2.445.009 3.299.048c2.908.133 4.523 1.751 4.653 4.653.039.854.048 1.127.048 3.299 0 2.173-.009 2.445-.048 3.298z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24">
+                                            <path
+                                                d="M0 0v24h24v-24h-24zm8 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.397-2.586 7-2.777 7 2.476v6.759z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24">
+                                            <path
+                                                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
+                                        </svg>
+                                    </a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                        <div class="bg-purple-50 rounded-2xl p-10 text-center">
+                            <img class="mx-auto rounded-2xl shadow-md w-52" src="/src/assets/team5.jpg" alt="">
+                            <h2 class="mt-3  text-xl font-bold text-purple-900 ">Name</h2>
+                            <p class="text-gray-400 font-semibold">Designation</p>
+                            <ul class="flex justify-center gap-2  mt-3">
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5"
+                                            viewBox="0 0 24 24">
+                                            <path
+                                                d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24">
+                                            <path
+                                                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24">
+                                            <path
+                                                d="M15.233 5.488c-.843-.038-1.097-.046-3.233-.046s-2.389.008-3.232.046c-2.17.099-3.181 1.127-3.279 3.279-.039.844-.048 1.097-.048 3.233s.009 2.389.047 3.233c.099 2.148 1.106 3.18 3.279 3.279.843.038 1.097.047 3.233.047 2.137 0 2.39-.008 3.233-.046 2.17-.099 3.18-1.129 3.279-3.279.038-.844.046-1.097.046-3.233s-.008-2.389-.046-3.232c-.099-2.153-1.111-3.182-3.279-3.281zm-3.233 10.62c-2.269 0-4.108-1.839-4.108-4.108 0-2.269 1.84-4.108 4.108-4.108s4.108 1.839 4.108 4.108c0 2.269-1.839 4.108-4.108 4.108zm4.271-7.418c-.53 0-.96-.43-.96-.96s.43-.96.96-.96.96.43.96.96-.43.96-.96.96zm-1.604 3.31c0 1.473-1.194 2.667-2.667 2.667s-2.667-1.194-2.667-2.667c0-1.473 1.194-2.667 2.667-2.667s2.667 1.194 2.667 2.667zm4.333-12h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm.952 15.298c-.132 2.909-1.751 4.521-4.653 4.654-.854.039-1.126.048-3.299.048s-2.444-.009-3.298-.048c-2.908-.133-4.52-1.748-4.654-4.654-.039-.853-.048-1.125-.048-3.298 0-2.172.009-2.445.048-3.298.134-2.908 1.748-4.521 4.654-4.653.854-.04 1.125-.049 3.298-.049s2.445.009 3.299.048c2.908.133 4.523 1.751 4.653 4.653.039.854.048 1.127.048 3.299 0 2.173-.009 2.445-.048 3.298z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24">
+                                            <path
+                                                d="M0 0v24h24v-24h-24zm8 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.397-2.586 7-2.777 7 2.476v6.759z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24">
+                                            <path
+                                                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
+                                        </svg>
+                                    </a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                        <div class="bg-purple-50 rounded-2xl p-10 text-center">
+                            <img class="mx-auto rounded-2xl shadow-md w-52" src="/src/assets/team6.jpg" alt="">
+                            <h2 class="mt-3  text-xl font-bold text-purple-900 ">Name</h2>
+                            <p class="text-gray-400 font-semibold">Designation</p>
+                            <ul class="flex justify-center gap-2  mt-3">
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5"
+                                            viewBox="0 0 24 24">
+                                            <path
+                                                d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24">
+                                            <path
+                                                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24">
+                                            <path
+                                                d="M15.233 5.488c-.843-.038-1.097-.046-3.233-.046s-2.389.008-3.232.046c-2.17.099-3.181 1.127-3.279 3.279-.039.844-.048 1.097-.048 3.233s.009 2.389.047 3.233c.099 2.148 1.106 3.18 3.279 3.279.843.038 1.097.047 3.233.047 2.137 0 2.39-.008 3.233-.046 2.17-.099 3.18-1.129 3.279-3.279.038-.844.046-1.097.046-3.233s-.008-2.389-.046-3.232c-.099-2.153-1.111-3.182-3.279-3.281zm-3.233 10.62c-2.269 0-4.108-1.839-4.108-4.108 0-2.269 1.84-4.108 4.108-4.108s4.108 1.839 4.108 4.108c0 2.269-1.839 4.108-4.108 4.108zm4.271-7.418c-.53 0-.96-.43-.96-.96s.43-.96.96-.96.96.43.96.96-.43.96-.96.96zm-1.604 3.31c0 1.473-1.194 2.667-2.667 2.667s-2.667-1.194-2.667-2.667c0-1.473 1.194-2.667 2.667-2.667s2.667 1.194 2.667 2.667zm4.333-12h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm.952 15.298c-.132 2.909-1.751 4.521-4.653 4.654-.854.039-1.126.048-3.299.048s-2.444-.009-3.298-.048c-2.908-.133-4.52-1.748-4.654-4.654-.039-.853-.048-1.125-.048-3.298 0-2.172.009-2.445.048-3.298.134-2.908 1.748-4.521 4.654-4.653.854-.04 1.125-.049 3.298-.049s2.445.009 3.299.048c2.908.133 4.523 1.751 4.653 4.653.039.854.048 1.127.048 3.299 0 2.173-.009 2.445-.048 3.298z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24">
+                                            <path
+                                                d="M0 0v24h24v-24h-24zm8 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.397-2.586 7-2.777 7 2.476v6.759z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24">
+                                            <path
+                                                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
+                                        </svg>
+                                    </a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+    </section>
+    <section class="bg-red-100 p-5 rounded-xl mb-10">
+        <div class="container mx-auto ">
+            <div class="py-16 lg:py-28 ">
+                <h2 class="text-center text-3xl lg:text-5xl font-bold">Contact Us</h2>
+                <p class="mt-5 w-1/2 text-center mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptas, aliquam, nesciunt totam obcaecati consequuntur neque non eum odio dolorem sint a error
+                    enim dolore cumque voluptate incidunt cupiditate atque molestiae.</p>
+            </div>
+            <div class="lg:w-1/2 mx-auto mb-28">
+                <form action="">
+                    <div class="flex">
+                        <div class="w-auto flex">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6 my-auto">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                            </svg>
+
+
+                        </div>
+                        <div class="w-full mb-5">
+                            <span class="block text-gray-600"> Ender Your name</span>
+                            <input class="rounded w-full focus:outline-none p-1" type="text">
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="w-auto flex">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6 my-auto">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                            </svg>
+
+
+                        </div>
+                        <div class="w-full mb-5 ">
+                            <span class="block text-gray-600"> Ender Your Email</span>
+                            <input class="rounded w-full focus:outline-none p-1" type="email">
+                        </div>
+
+                    </div>
+
+                    <div class="flex">
+                        <div class="w-auto flex">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6 my-auto">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                            </svg>
+
+
+                        </div>
+                        <div class="w-full mb-5 ">
+                            <span class="block text-gray-600">Choose One </span>
+                            <select class="w-full p-1 focus:outline-none border-b" name="" id="">
+                                <option value="Web Design">Web Design </option>
+                                <option value="web Development"> Web Development</option>
+                                <option value="Digital Marketing">Digital Marketing</option>
+                                <option value="SEO">SEO</option>
+
+                            </select>
+                        </div>
+
+                    </div>
+                    <div class="flex">
+                        <div class="w-auto flex">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6 my-auto">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                            </svg>
+
+
+                        </div>
+                        <div class="w-full mb-5 ">
+                            <span class="block text-gray-600">Ender Your Message </span>
+                            <textarea class="w-full p-1 focus:outline-none border-b" name="" id=""></textarea>
+
+                        </div>
+
+                    </div>
+
+
+
+
+                    <button class="bg-purple-500 text-white rounded px-3 mt-3 block py-2 ml-3 font-semibold">
+                        Submit
+
+                    </button>
+
+
+                </form>
+
+
+            </div>
+
+        </div>
+    </section>
+    <section class="bg-purple-100 p-5 rounded-xl mb-10">
+        <div class="container mx-auto ">
+            <div class="py-16 lg:py-28 ">
+                <h2 class="text-center text-3xl lg:text-5xl font-bold">Our Blogs</h2>
+                <p class="mt-5 w-1/2 text-center mx-auto">We have lot for you to read</p>
+            </div>
+
+            <div class="flex flex-wrap  justify-center">
+                <div class="w-full md:w-1/2 py-4 lg:w-1/3  ">
+                    <div class="w-full md:w-11/12 lg:w-8/12 mx-auto">
+                        <div class="rounded-b-3xl">
+
+                            <img class="rounded-t-3xl" src="/src/assets/product.png" alt="">
+                            <div class="bg-white p-5 rounded-b-3xl shadow-lg">
+                                <span class="text-gray-500 font-semibold ">Dec 10 2020</span>
+                                <h3 class=" text-lg font-bold mb-2"> Some description for the blog.</h3>
+                                <p>
+                                    <span class="bg-gray-200 text-sm inline rounded-md px-3 ">Marketing</span>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full md:w-1/2 py-4 lg:w-1/3 ">
+                    <div class="w-full md:w-11/12 lg:w-8/12 mx-auto">
+                        <div class="rounded-b-3xl">
+
+                            <img class="rounded-t-3xl" src="/src/assets/product.png" alt="">
+                            <div class="bg-white p-5 rounded-b-3xl shadow-lg">
+                                <span class="text-gray-500 font-semibold ">Dec 10 2020</span>
+                                <h3 class=" text-lg font-bold mb-2"> Some description for the blog.</h3>
+                                <p>
+                                    <span class="bg-gray-200 text-sm inline rounded-md px-3 ">Marketing</span>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full md:w-1/2 py-4  lg:w-1/3  ">
+                    <div class="w-full md:w-11/12 lg:w-8/12 mx-auto">
+                        <div class="rounded-b-3xl">
+
+                            <img class="rounded-t-3xl" src="/src/assets/product.png" alt="">
+                            <div class="bg-white p-5 rounded-b-3xl shadow-lg">
+                                <span class="text-gray-500 font-semibold ">Dec 10 2020</span>
+                                <h3 class=" text-lg font-bold mb-2"> Some description for the blog.</h3>
+                                <p>
+                                    <span class="bg-gray-200 text-sm inline rounded-md px-3 ">Marketing</span>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full md:w-1/2 py-4 lg:mt-8 lg:w-1/3 ">
+                    <div class="w-full md:w-11/12 lg:w-8/12 mx-auto">
+                        <div class="rounded-b-3xl">
+
+                            <img class="rounded-t-3xl" src="/src/assets/product.png" alt="">
+                            <div class="bg-white p-5 rounded-b-3xl shadow-lg">
+                                <span class="text-gray-500 font-semibold ">Dec 10 2020</span>
+                                <h3 class=" text-lg font-bold mb-2"> Some description for the blog.</h3>
+                                <p>
+                                    <span class="bg-gray-200 text-sm inline rounded-md px-3 ">Marketing</span>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full md:w-1/2 py-4 lg:mt-8  lg:w-1/3  ">
+                    <div class="w-full md:w-11/12 lg:w-8/12 mx-auto">
+                        <div class="rounded-b-3xl">
+
+                            <img class="rounded-t-3xl" src="/src/assets/product.png" alt="">
+                            <div class="bg-white p-5 rounded-b-3xl shadow-lg">
+                                <span class="text-gray-500 font-semibold ">Dec 10 2020</span>
+                                <h3 class=" text-lg font-bold mb-2"> Some description for the blog.</h3>
+                                <p>
+                                    <span class="bg-gray-200 text-sm inline rounded-md px-3 ">Marketing</span>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="flex py-20">
+                <a class="mx-auto bg-purple-700 text-white px-3 py-2 rounded-md font-semibold text-lg" href="">View All
+                    Blog Post</a>
+            </div>
+        </div>
+
+    </section>
+    <section class=" p-5 rounded-xl mb-10  ">
+        <div class="container bg-gradient-to-r from-purple-400 to-red-500   mx-auto rounded-3xl">
+            <div class="py-16 lg:py-18">
+                <h1 class="text-center font-bold text-3xl text-white ">Let's Do Something amazing</h1>
+                <p class="text-center mt-2 text-white">
+                    Lorem ipsum dolor sit amet consectetur
+                </p>
+                <div class="flex mt-8 ">
+                    <button class="mx-auto bg-white rounded-md px-2 font-semibold text-lg text-purple-900">Contact
+                        Us</button>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+    <section class=" p-5 rounded-xl mb-10">
+        <div class="container mx-auto rounded-3xl">
+            <footer class="text-white rounded-2xl bg-gray-800 p-5 mb-4">
+                <div class="flex flex-wrap py-12">
+                    <div class="p-5 lg:p-10 w-full md:w-1/3 lg:w-1/3 ">
+                        <h1 class="font-extrabold text-xl mb-4">Agency</h1>
+                        <p class="text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut nostrum
+                            nulla iste facilis sint
+                            voluptas soluta corrupti voluptatum eveniet culpa dolorum eius necessitatibus est, nesciunt
+                            magnam dolor cupiditate fuga dicta?</p>
+                    </div>
+                    <div class="p-5 lg:p-10 w-full md:w-1/3 lg:w-1/3  ">
+                        <h1 class="font-extrabold text-xl mb-4">address</h1>
+                        <ul class="text-gray-400">
+                            <ul>Address 1</ul>
+                            <ul>Address 2</ul>
+                            <ul>Address 3</ul>
+                            <ul>pin-630106 </ul>
+
+                        </ul>
+
+                    </div>
+                    <div class="p-5 lg:p-10 w-full md:w-1/3 lg:w-1/3">
+                        <h1 class="font-extrabold text-xl mb-4">Inquiries</h1>
+                        <ul class="text-gray-400">
+                            <a href="tel-+91000000000">000-000-000</a><br>
+                            <a href="mailto:contact@gmail.com">content@gmail.com</a><br>
+                            <ul class="flex  gap-2  mt-3">
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5"
+                                            viewBox="0 0 24 24">
+                                            <path
+                                                d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24">
+                                            <path
+                                                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24">
+                                            <path
+                                                d="M15.233 5.488c-.843-.038-1.097-.046-3.233-.046s-2.389.008-3.232.046c-2.17.099-3.181 1.127-3.279 3.279-.039.844-.048 1.097-.048 3.233s.009 2.389.047 3.233c.099 2.148 1.106 3.18 3.279 3.279.843.038 1.097.047 3.233.047 2.137 0 2.39-.008 3.233-.046 2.17-.099 3.18-1.129 3.279-3.279.038-.844.046-1.097.046-3.233s-.008-2.389-.046-3.232c-.099-2.153-1.111-3.182-3.279-3.281zm-3.233 10.62c-2.269 0-4.108-1.839-4.108-4.108 0-2.269 1.84-4.108 4.108-4.108s4.108 1.839 4.108 4.108c0 2.269-1.839 4.108-4.108 4.108zm4.271-7.418c-.53 0-.96-.43-.96-.96s.43-.96.96-.96.96.43.96.96-.43.96-.96.96zm-1.604 3.31c0 1.473-1.194 2.667-2.667 2.667s-2.667-1.194-2.667-2.667c0-1.473 1.194-2.667 2.667-2.667s2.667 1.194 2.667 2.667zm4.333-12h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm.952 15.298c-.132 2.909-1.751 4.521-4.653 4.654-.854.039-1.126.048-3.299.048s-2.444-.009-3.298-.048c-2.908-.133-4.52-1.748-4.654-4.654-.039-.853-.048-1.125-.048-3.298 0-2.172.009-2.445.048-3.298.134-2.908 1.748-4.521 4.654-4.653.854-.04 1.125-.049 3.298-.049s2.445.009 3.299.048c2.908.133 4.523 1.751 4.653 4.653.039.854.048 1.127.048 3.299 0 2.173-.009 2.445-.048 3.298z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24">
+                                            <path
+                                                d="M0 0v24h24v-24h-24zm8 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.397-2.586 7-2.777 7 2.476v6.759z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="shadow-sm rounded">
+                                    <a class="text-gray-500" href="">
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24">
+                                            <path
+                                                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
+                                        </svg>
+                                    </a>
+                                </li>
+
+
+                            </ul>
+                           
+                        </ul>
+                    </div>
+
+                </div>
+            </footer>
+
+
+        </div>
+
+    </section>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

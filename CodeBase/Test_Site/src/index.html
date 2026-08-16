@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/src/output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="perent">
+
+        <div class="boss">
+            <div class="labours1">labours1</div>
+            <div class="labours2  bg-gradient-to-t from-yellow-500 via-green-500 to-red-500">labours2</div>
+        </div>
+        <div class="boss2">
+            <div class="labours01">labours01</div>
+            <div class="labours02 ">labours02</div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
+<style>
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    body {
+        background-color: grey;
+        color: aliceblue;
+
+    }
+
+    .perent {
+        background-color: black;
+        position: relative;
+        height: 700px;
+        width: auto;
+        padding: 50px;
+        border: 7px solid black;
+        bottom: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .boss {
+
+        padding: 20px;
+        position: relative;
+        height: max-content;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .labours1 {
+        padding: 50px;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 10;
+        background-color: blueviolet;
+    }
+
+    .labours2 {
+        padding: 56px;
+        border-radius: 50%;
+        position: static;
+
+    }
+
+    .boss2 {
+        border: 12px;
+        position: relative;
+        height: max-content;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .labours01 {
+         height:200px;
+        width: 200px;
+        padding: 140px;
+        position: absolute;
+        background-color: black;
+        z-index: 10;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .labours02 {
+        height:200px;
+        width: 200px;
+        padding: 150px;
+        background-image: conic-gradient(red, blue, chartreuse);
+        border: 3px solid;
+        position: static;
+        z-index: 9;
+        filter: blur(1.5rem);
+        border-radius: 100%;
+        animation-name: spin;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+
+    }
+    @keyframes spin{
+        to{
+            transform: rotate(360deg);
+        }
+    }
+
+    
+
+
