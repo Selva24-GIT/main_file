@@ -52,7 +52,6 @@ body {
 .labours01 {
   height: 440px;
   width: 440px;
-  padding: 150px;
   border: 3px, solid;
   position: absolute;
   z-index: 10;
@@ -98,7 +97,6 @@ body {
 .labours03 {
   height: 300px;
   width: 300px;
-  padding: 150px;
   border: 3px, solid;
   position: absolute;
   z-index: 10;
