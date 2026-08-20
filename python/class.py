@@ -1,18 +1,19 @@
+#Create clss
 class school:
 #class property
     school="abc schcool"
     school_time="9:00am to 4:00pm"
     school_location="cheannai"
-    #object property
+    #object property(method)
     def __init__(self,name,age,id,std):
         self.name=name
         self.age=age
         self.id=id
         self.std=std
-    #object property information
+    #object property information(object method)
     def display_student(self):
         print(self.name,self.age,self.id,self.std)
-    #object property motification
+    #object property motification(object method)
     def ch_student_property(self,new_name,new_age,new_id,new_std):
         self.name=new_name
         self.age=new_age
@@ -37,6 +38,7 @@ class school:
         cls.school_time=new_school_time
         cls.school_location=new_school_location
 
+#create object
 s1=school("selva",22,123151358,"B.Com")
 s1.display_student()
 s1.display_class()
