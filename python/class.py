@@ -149,10 +149,28 @@
 # s1=both("selva",123456789,"python")
 # print(both.mro())
 
-
+#abstract method
 from abc import ABC,abstractmethod
 class payment(ABC):
-    
+    @abstractmethod
+    def pay(self):
+        pass
+class upi(payment):
+    def pay(self):
+        print("upi payment")
+class credit(payment):
+    def pay(payment):
+        print("credit payment")
+class debit(payment):
+    def pay(self):
+        print("debit payment")
 
+
+p1=upi()
+p1.pay()
+p2=credit()
+p2.pay()
+p3=debit()
+p3.pay()
 
   
