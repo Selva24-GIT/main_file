@@ -1,0 +1,54 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/content.css' %}">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <nav>
+        <h1 class="maintitle">
+            THE SOCIETY
+        </h1>
+    </nav>
+    <header>
+        <h1 class="subtitle">BREAKING NEWS</h1>
+    </header>
+
+    <aside>
+        <h1 class="contenttitle">
+            {{key.article_subtitle}}
+        </h1>
+        <p class="contentpara">
+            {{key.content}}
+        </p>
+        <div>
+              <P class="contentend">
+
+                  "SOCITY ESSENCE REFLECTED IN UNITY" 
+              </P>
+        </div>
+
+    </aside>
+
+    <main>
+        <img src="{% static key.article_img %}" alt="">
+        <p class="secondpara">
+            {{key.second_content}}
+        </p>
+    </main>
+    <footer>
+            <a href="{% url 'product' key.id %}"> BACK TO HOME PAGE</a>
+
+    </footer>
+
+</body>
+
+</html>

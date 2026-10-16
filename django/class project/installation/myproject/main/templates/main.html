@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/product.css' %}">
+    <title>Document</title>
+    {% block css %}
+    {% endblock %}
+</head>
+<body>
+<nav>
+
+    <a  href="{% url 'home' %}"> 
+        <h1 class="header">Today Articles</h1>
+    </a>
+    <a href="{% url 'product' 1 %}">Article 1</a>
+    <a href="{% url 'product' 2 %}">Article 2</a>
+    <a href="{% url 'product' 3 %}">Article 3</a>
+    </nav>
+    {% block content %}
+    {% endblock %}
+   
+</body>
+</html>

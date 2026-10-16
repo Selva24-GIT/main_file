@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../imgage/57caa4fd01e95852e03ce9a2a10f4ee5.jpg");
+    filter: blur(5px);
+    transform: scale(1.05);
+    z-index: -1;
+    height: 1300px;
+
+}
+
+nav {
+    height: 250px;
+    width: 100%;
+
+
+    display: flex;
+    align-items: center;
+}
+
+.maintitle {
+    font-family: 'UnifrakturMaguntia', 'Old English Text MT', 'Engravers Old English', Georgia, serif;
+    font-size: 9.5rem;
+    letter-spacing: -2px;
+    line-height: 0.9;
+    font-weight: normal;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-top: 9px double black;
+    border-bottom: 9px double black;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+header {
+    height: 160px;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+}
+
+.subtitle {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5.5rem;
+    letter-spacing: 2px;
+    font-weight: 100;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-bottom: 9px double black;
+    border-top: 3px solid black;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+aside {
+    height: 800px;
+    width: 45%;
+    position: relative;
+
+
+}
+
+.contenttitle {
+    font-size: 900;
+    font-weight: 900;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.contentpara {
+    font-size: 27px;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+div{
+    margin-top: 25px;
+    margin-left: 50px;
+    height: 70px;
+    width: 45%;
+    border: 3px solid black;
+    position: relative;
+   
+}
+  
+.contentend{
+    font-size: 25px;
+    font-weight: normal;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+
+
+main {
+    height: 800px;
+    width: 55%;
+
+    position: absolute;
+    top: 420px;
+    left: 45%;
+}
+
+img {
+    height: 450px;
+    width: 80%;
+    margin-left: 50px;
+    border: 3px solid black;
+}
+
+.secondpara {
+    margin-top: 50px;
+    font-size: 27px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    border-top: 10px double black;
+}
+a{
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+}
+a:hover{
+    color: white;
+}
