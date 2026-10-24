@@ -1,27 +1,38 @@
+{% extends 'home.html' %}
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <h1>crud app</h1>
-    <table border="1" cellpadding="10" >
-        <tr>
-            <th>id</th>
-            <th>Name</th>
-            <th>course</th>
-            <th>Age</th>
-        </tr>
+    {% block content %}
+    <center>
+        <h1>ToDo List</h1>
         {% for i in data %}
-        <tr>
-            <th>{{i.id}}</th>
-            <th>{{i.name}}</th>
-            <th>{{i.course}}</th>
-            <th>{{i.age}}</th>
-        </tr>
+
+        <h3>
+            Title:
+            <span>{{i.title}}</span>
+        </h3>
+
+        <h4>
+            des:
+            <span>{{i.des}}</span>
+        </h4>
+        <a href="{% url 'c_h' i.id %}">complete</a>
+        <a href="{% url 'd_h' i.id %}">delete</a>
+        <a href="{% url 'update' i.id %}">update</a>
+
+        
+        
         {% endfor %}
-    </table>
+        
+    </center>
+    {% endblock %}
 </body>
+
 </html>

@@ -9,3 +9,13 @@ class Student(models.Model):
         return (f'{self.name} - {self.course} - {self.age}')
     
 
+class Taskmodel(models.Model):
+    title = models.CharField(max_length=100)
+    des = models.CharField(max_length=100)
+class completemodel(models.Model):
+    title = models.CharField(max_length=100)
+    des = models.CharField(max_length=100)
+class deletemodel(models.Model):
+    title = models.CharField(max_length=100)
+    des = models.CharField(max_length=100)
+    

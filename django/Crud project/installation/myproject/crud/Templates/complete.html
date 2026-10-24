@@ -1,0 +1,32 @@
+{% extends 'home.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% block content %}
+    <center>
+        <h1>Completed Tasks</h1>
+        {% for i in data %}
+
+        <h3>
+            Title:
+            <span>{{i.title}}</span>
+        </h3>
+
+        <h4>
+            des:
+            <span>{{i.des}}</span>
+        </h4>
+      
+        <a href="{% url 'd_hc' i.id %}">delete</a>
+        <a href="{% url 'r_hc' i.id %}">restore</a>
+
+        {% endfor %}
+    </center>
+    {% endblock %}
+</body>
+</html>

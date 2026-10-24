@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Student
+from .models import *
 # Register your models here.
  
 
@@ -9,3 +9,7 @@ class Student(admin.ModelAdmin):
     search_fields = ('name','course','id')
     list_filter = ('course','age')
     ordering = ('id',)
+
+admin.site.register(Taskmodel)
+admin.site.register(completemodel)
+admin.site.register(deletemodel)

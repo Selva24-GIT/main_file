@@ -1,3 +1,4 @@
+{% extends 'home.html' %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,23 +7,27 @@
     <title>Document</title>
 </head>
 <body>
-    <form method="post">
-
-        {% csrf_token %}
+    {% block content %}
+    <center>
         
-        <label>Name:</label>
-        <input type="text" name="name" required>
-        <br><br>
-
-        <label>course:</label>
-        <input type="text" name="course" required>
-        <br><br>
-        
-        <label>age:</label>
-        <input type="number" min="1" name="age" required>
-        <br><br>
-        
-        <button type="submit">Save Students</button>
-    </form>
+        <h1>Add Students</h1>
+        <form method="post">
+            
+            {% csrf_token %}
+            
+            <label>Title:</label>
+            <input type="text" name="title" required>
+            <br><br>
+            
+            <label>des:</label>
+            <input type="text" name="des" required>
+            <br><br>
+            
+            
+            
+            <button type="submit">Save Students</button>
+        </form>
+    </center>
+    {% endblock %}
 </body>
 </html>
