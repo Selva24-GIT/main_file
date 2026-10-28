@@ -170,7 +170,9 @@ p1=upi()
 p1.pay()
 p2=credit()
 p2.pay()
-p3=debit()
+p3=debit() 
 p3.pay()
+p4=payment()
+p4.pay()
 
   
