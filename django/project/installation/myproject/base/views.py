@@ -7,15 +7,15 @@ from .models import *
 
 
 # Create your views here.
-def index(request):
-    data = LoginModel.objects.all()
-    return render(request,'index.html',{'data':data})
+def register(request):
+   if request.user.is_authenticated:
+      return redirect('profile')
+
 
 def login(request):
     if request.method == 'POST':
       username = request.POST['username']
       userpassword =  request.POST['userpassword']
-
       user = aauthenticate(
          request,
          username = username,
@@ -24,7 +24,7 @@ def login(request):
       if user is not None:
         login(request,user)
       
-        return redirect('index')
+        return redirect('')
     else:
        return render(request,  )
 
