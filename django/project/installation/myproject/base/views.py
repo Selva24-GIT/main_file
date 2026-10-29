@@ -7,7 +7,7 @@ from .models import *
 
 
 # Create your views here.
-def index(request):
+def register(request):
     data = LoginModel.objects.all()
     return render(request,'index.html',{'data':data})
 
@@ -24,7 +24,7 @@ def login(request):
       if user is not None:
         login(request,user)
       
-        return redirect('index')
+        return redirect('register')
     else:
        return render(request,  )
 

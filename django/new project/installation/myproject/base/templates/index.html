@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <h1>Index Page</h1>
+        <table border="1" cellpadding="10" cellspacing="0">
+            
+            <tr>
+                <th>State</th>
+                <th>Capital</th>
+            </tr>
+            {% for i in data %}
+            <tr>
+                <td>{{ i.State }}</td>
+                <td>{{ i.Capital }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </center>
+</body>
+
+</html>
