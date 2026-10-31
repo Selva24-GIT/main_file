@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Profile</title>
+</head>
+<body>
+    <h1>My Profile</h1>
+
+    <p>Username: {{ request.user.username }}</p>
+    <p>Email: {{ request.user.email|default:"Not provided" }}</p>
+    <p>Account created: {{ request.user.date_joined }}</p>
+    <p>Last login: {{ request.user.last_login|default:"First login" }}</p>
+
+    <form method="post" action="{% url 'logout_view' %}">
+        {% csrf_token %}
+        <button type="submit">logout </button>
+    </form>
+
+   
+</body>
+</html>
